@@ -6,10 +6,10 @@ import Modal from "./componentes/Modal";
 function Mascotas() {
     return (
         <>
-                <Nav />
-                <ActionsMenu />
-                <Table />
-                <Modal />
+            <Nav />
+            <ActionsMenu />
+            <Table />
+            <Modal />
         </>
     );
 }

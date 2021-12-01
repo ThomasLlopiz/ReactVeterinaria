@@ -57,7 +57,7 @@
 
 a {
     color: #0d6efd;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: transparent;
 }
 
@@ -96,17 +96,17 @@ a {
 }
 
 .navbar-collapse {
+    display: flex;
+    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
+    -ms-flex-positive: 1;
     flex-grow: 1;
+    -ms-flex-aling: center;
     align-items: center;
 }
 
 .mb-2 {
     margin-bottom: 0.5rem!important;
-}
-
-.me-auto {
-    margin-right: auto!important;
 }
 
 .navbar-nav {
